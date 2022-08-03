@@ -1,0 +1,51 @@
+html {
+  --bg: green;
+  scroll-padding-top: 40px;
+}
+/* .box {
+  width: 100px;
+  height: 50px;
+  background-color: var(--bg);
+  transform: scale(var(--scale, 3.1)) rotate(var(--rotation, 40deg));
+}
+.box-red {
+  --bg: red;
+  --scale: 1.5;
+} */
+
+/* .container {
+  display: inline-block;
+  background-color: red;
+  resize: both;
+  overflow: hidden;
+  border: 1px solid gray;
+}
+
+img {
+  /* width: 600px; */
+/* width: 80%; */
+/* aspect-ratio: 1/1; */
+/* } */
+/* .space {
+  width: 300px;
+  height: 100px;
+  background-color: red;
+}
+.space h1 {
+  font-size: calc(20px + 1vw);
+} */
+/* nav {
+  background: red;
+  position: sticky;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 100%;
+} */
+.transparent-text {
+  width: 200px;
+  background-position: center;
+  background-image: url(https://i0.wp.com/digital-photography-school.com/wp-content/uploads/2018/12/Coastal-scenes-4.jpg?fit=1500%2C1000&ssl=1);
+  -webkit-background-clip: text;
+  color: transparent;
+}

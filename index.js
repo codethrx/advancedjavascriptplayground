@@ -87,4 +87,15 @@ document.title = "Learning advanced js stuff";
 // console.log("After deletion");
 // console.log(...uniqueNumbers);
 // 8. Binary Math
-console.log(Math.floor(0.1 + 0.2));
+// console.log(Math.floor(0.1 + 0.2));
+// 9.Debuggint tips
+// const array = [
+//   { name: "John", hobby: ["coding", "Weight lifitng"] },
+//   { name: "Doe", hobby: ["coding"] },
+//   { name: "Mr.T", hobby: ["Weight lifitng"] },
+// ];
+// console.table(array);
+// debugger;
+// console.log("error");
+// const x = 45;
+// console.assert(x === 1, "X should be one");
