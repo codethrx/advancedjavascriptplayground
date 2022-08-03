@@ -1,4 +1,4 @@
-document.title = "Learning advanced js stuff";
+// document.title = "Learning advanced js stuff";
 // document.getElementById("app").innerHTML = `
 //1.Nullish coalescing -- ??
 // function calculateTax(amount, taxes, description) {
@@ -99,3 +99,15 @@ document.title = "Learning advanced js stuff";
 // console.log("error");
 // const x = 45;
 // console.assert(x === 1, "X should be one");
+
+const array = [
+  1,
+  2,
+  3,
+  4,
+  5,
+  [1, 2, 3],
+  [4, 5, 6],
+  [4, 5, [6, 78, 8, [89, 68]]],
+];
+console.log(array.flat(2));
