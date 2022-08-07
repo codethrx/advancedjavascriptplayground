@@ -100,14 +100,27 @@
 // const x = 45;
 // console.assert(x === 1, "X should be one");
 
-const array = [
-  1,
-  2,
-  3,
-  4,
-  5,
-  [1, 2, 3],
-  [4, 5, 6],
-  [4, 5, [6, 78, 8, [89, 68]]],
-];
-console.log(array.flat(2));
+// const array = [
+//   1,
+//   2,
+//   3,
+//   4,
+//   5,
+//   [1, 2, 3],
+//   [4, 5, 6],
+//   [4, 5, [6, 78, 8, [89, 68]]],
+// ];
+// console.log(array.flat(2));
+// const stars = ["*", "**", "***", "****"];
+// for (let i = 0; i < stars.length; i++) {
+//   console.log(stars[i]);
+// }
+
+// const object = {
+//   name: "Hola",
+//   gender: "Male",
+//   hobbies: ["Cricket", "Basket ball"],
+// };
+// console.log(Object.entries(object).map(([key, val]) => `${key}:${val}`));
+// const arr = [1, 2, 3, 4];
+// console.log(Object.entries(arr).map(([key, val]) => `${key}:${val}`));
